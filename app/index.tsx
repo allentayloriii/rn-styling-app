@@ -1,4 +1,4 @@
-import ConditionalStyling from "@/components/ConditionalStyling";
+import ImageView from "@/components/ImageView";
 import React from "react";
 import { StyleSheet, View } from "react-native";
 
@@ -7,7 +7,8 @@ const index = () => {
     <View style={styles.container}>
       {/* <Basics /> */}
       {/* <Flex /> */}
-      <ConditionalStyling />
+      {/* <ConditionalStyling /> */}
+      <ImageView />
     </View>
   );
 };
