@@ -1,4 +1,4 @@
-import ImageView from "@/components/ImageView";
+import Functions from "@/components/Functions";
 import React from "react";
 import { StyleSheet, View } from "react-native";
 
@@ -8,7 +8,8 @@ const index = () => {
       {/* <Basics /> */}
       {/* <Flex /> */}
       {/* <ConditionalStyling /> */}
-      <ImageView />
+      {/* <ImageView /> */}
+      <Functions />
     </View>
   );
 };
