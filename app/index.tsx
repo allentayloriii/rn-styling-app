@@ -1,4 +1,4 @@
-import Flex from "@/components/Flex";
+import ConditionalStyling from "@/components/ConditionalStyling";
 import React from "react";
 import { StyleSheet, View } from "react-native";
 
@@ -6,7 +6,8 @@ const index = () => {
   return (
     <View style={styles.container}>
       {/* <Basics /> */}
-      <Flex />
+      {/* <Flex /> */}
+      <ConditionalStyling />
     </View>
   );
 };
