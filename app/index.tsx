@@ -1,11 +1,12 @@
+import Flex from "@/components/Flex";
 import React from "react";
 import { StyleSheet, View } from "react-native";
-import Basics from "../components/Basics";
 
 const index = () => {
   return (
     <View style={styles.container}>
-      <Basics />
+      {/* <Basics /> */}
+      <Flex />
     </View>
   );
 };
