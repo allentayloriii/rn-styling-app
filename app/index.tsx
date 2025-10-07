@@ -1,4 +1,4 @@
-import Welcome from "@/components/Welcome/Welcome";
+import SafeBox from "@/components/SafeBox";
 import React from "react";
 import { StyleSheet, View } from "react-native";
 
@@ -11,7 +11,8 @@ const index = () => {
       {/* <ImageView /> */}
       {/* <Functions /> */}
       {/* <PlatformStyling /> */}
-      <Welcome />
+      {/* <Welcome /> */}
+      <SafeBox />
     </View>
   );
 };
