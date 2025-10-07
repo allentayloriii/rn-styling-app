@@ -1,4 +1,4 @@
-import Functions from "@/components/Functions";
+import PlatformStyling from "@/components/PlatformStyling";
 import React from "react";
 import { StyleSheet, View } from "react-native";
 
@@ -9,7 +9,8 @@ const index = () => {
       {/* <Flex /> */}
       {/* <ConditionalStyling /> */}
       {/* <ImageView /> */}
-      <Functions />
+      {/* <Functions /> */}
+      <PlatformStyling />
     </View>
   );
 };
