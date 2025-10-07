@@ -1,4 +1,4 @@
-import SafeBox from "@/components/SafeBox";
+import Themed from "@/components/Themed";
 import React from "react";
 import { StyleSheet, View } from "react-native";
 
@@ -12,7 +12,8 @@ const index = () => {
       {/* <Functions /> */}
       {/* <PlatformStyling /> */}
       {/* <Welcome /> */}
-      <SafeBox />
+      {/* <SafeBox /> */}
+      <Themed />
     </View>
   );
 };
